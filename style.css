@@ -1,16 +1,26 @@
+body {
+    font-family: Arial;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
 table {
+    width: 80%;
     margin: auto;
     border-collapse: collapse;
-    width: 80%;
-    background-color: #222;
+    background-color: white;
 }
 
 th {
-    background-color: cyan;
-    color: black;
+    background-color: darkblue;
+    color: white;
 }
 
 td, th {
-    border: 1px solid white;
+    border: 1px solid black;
     padding: 10px;
 }
